@@ -1,6 +1,6 @@
 ---
 title: "Why Computer-Use Agents Feel Slow — and the Cache That Removes a Round Trip"
-date: 2026-07-18T20:15:00-04:00
+date: 2026-07-18T19:00:00-04:00
 description: "A measured note from building a macOS computer-use agent: the hidden cost of repeatedly walking the accessibility tree, and how action-aware caching changes the execution path."
 tags: ["computer-use", "macos", "accessibility", "agent-engineering", "performance"]
 categories: ["Field Notes"]
