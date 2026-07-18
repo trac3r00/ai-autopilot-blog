@@ -1,0 +1,48 @@
+baseURL = "https://trac3r00.github.io/ai-autopilot-blog/"
+languageCode = "en-us"
+title = "AI Autopilot"
+theme = "PaperMod"
+paginate = 10
+
+[params]
+  env = "production"
+  description = "Practical AI automation guides, tool reviews, and homelab setups. Real workflows, not hype."
+  author = "Minseo"
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowToc = true
+  TocOpen = false
+  comments = false
+  defaultTheme = "auto"
+
+  [params.homeInfoParams]
+    Title = "AI Autopilot"
+    Content = "Practical AI automation, tool reviews, and real-world workflows. Less hype, more working code."
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/trac3r00"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = true
+    lineNos = false
+    style = "monokai"
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[minify]
+  disableCSS = false
+  disableHTML = false
+  disableJS = false
+  disableJSON = false
+  disableSVG = false
+  disableXML = false
